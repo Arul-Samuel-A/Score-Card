@@ -20,7 +20,7 @@ body{
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(to bottom,rgba(0, 0, 255, 0.1), rgba(0, 0, 0, 1)), 
-    url('image/image.png');
+    url('image.png');
     background-size: cover;
     font-family: sans-serif;
     color: white;
