@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <script src="script.js" defer></script>
+        <h1 id="title">Score Card</h1>
+        <div class="total">
+            <div id="contents">
+                <div id="team1">
+                    <h1>Team A</h1>
+                    <h1 id="score1">0</h1>
+                    <div class="add1">
+                        <button id="bt3l" onclick="addThree1()">+3</button>
+                        <button id="bt2l" onclick="addTwo1()">+2</button>
+                        <button id="bt1l" onclick="addOne1()">+1</button>
+                    </div>
+                </div>
+                <div id="team2">
+                    <h1>Team B</h1>
+                    <h1 id="score2">0</h1>
+                    <div class="add2">
+                        <button id="bt3r" onclick="addThree2()">+3</button>
+                        <button id="bt2r" onclick="addTwo2()">+2</button>
+                        <button id="bt1r" onclick="addOne2()">+1</button>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <button id="restart" onclick="restartGame()">Restart</button>
+                <button id="save" onclick="saveGame()">Save</button>
+            </div>
+        </div>
+        <div id="prev">
+            <h3>Previous Entries:</h3>
+            <p id="entries"></p>
+        </div>
+    </body>
+</html>
